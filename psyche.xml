@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- Remotes -->
+  <remote fetch="https://git.mainlining.org" name="mainlining" revision="lineage-21" />
+   <remote  name="gitlab"
+           fetch="https://gitlab.com"
+           sync-c="true"
+           sync-j="4" />
+  <project name="LineageOS/android_hardware_xiaomi" path="hardware/xiaomi" remote="github" revision="lineage-21" />
+  <!-- Device trees -->
+  <project name="xiaomi-psyche-development/android_device_xiaomi_psyche" path="device/xiaomi/psyche" remote="github" revision="lineage-21" />
+  <project name="xiaomi-psyche-development/proprietary_vendor_xiaomi_psyche" path="vendor/xiaomi/psyche" remote="github" revision="lineage-21" />
+  <project name="xiaomi-sm8250-devs/android_device_xiaomi_sm8250-common" path="device/xiaomi/sm8250-common" remote="github" revision="lineage-21" />
+  <!-- Kernel trees -->
+  <project name="xiaomi-psyche-development/android_kernel_xiaomi_sm8250" path="kernel/xiaomi/sm8250" remote="github" revision="lineage-21" />
+</manifest>
